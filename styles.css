@@ -1,0 +1,2904 @@
+
+
+
+/* Screen size 1*/
+@media (max-width: 1600px) {
+
+    .about {
+        text-decoration: none;
+        color: white;
+        border-radius: 3.125rem;
+        width: 10.313rem;
+        padding-top: .5rem;
+
+    }
+
+    .about-header {
+        justify-content: space-between;
+        padding-right: 3.75rem;
+        padding-top: 1.25rem;
+        padding-left: .625rem;
+        margin-bottom: -3.125rem;
+    }
+
+    .about:hover {
+        background: white;
+        color: black;
+    }
+
+    #about-background {
+        background: white;
+        width: 100%;
+        height: 55.938rem;
+        margin-top: -1.25rem;
+
+
+    }
+
+    #about-section {
+        z-index: 12;
+        font-family: 'Heebo', sans-serif;
+        font-size: 3.6667rem;
+        padding-left: .625rem;
+        margin-top: .625rem;
+        font-weight: 800;
+        color: black;
+
+    }
+
+    #about-box1 {
+        background: white;
+        width: 18.75rem;
+        height: 6.25rem;
+        margin-left: .625rem;
+        display: flex;
+        border-radius: 12.5rem;
+        color: white;
+        border: .438rem solid black;
+        box-shadow: black 1.25rem 1.25rem 3.438rem;
+        padding-top: 1.25rem;
+        padding-left: .625rem;
+        margin-top: 7.813rem;
+
+    }
+
+    #about-align {
+        display: block;
+        padding-left: 12.5rem;
+        margin-top: -.625rem;
+    }
+
+    #about-info {
+        padding-left: 10.938rem;
+        display: flex;
+        font-family: 'Heebo', sans-serif;
+        font-size: 1.375rem;
+        margin-top: 1.25rem;
+    }
+
+    .arsenal {
+        margin-top: 1.875rem;
+        display: flex;
+    }
+
+    .breaker {
+        height: .313rem;
+        width: 34.375rem;
+        background: black;
+        margin-left: 1.25rem;
+        margin-top: -.625rem;
+    }
+
+
+    @keyframes bounce {
+        0% {
+            transform: translateY(0);
+            opacity: 1;
+
+        }
+
+        12.5% {
+            transform: translateY(0);
+            opacity: 0.0001;
+
+        }
+
+        25% {
+            transform: translateY(12.5rem);
+            opacity: .0001;
+        }
+
+        37.5% {
+            transform: translateY(12.5rem);
+            opacity: 1;
+
+        }
+
+        50% {
+            transform: translateY(12.5rem);
+            opacity: 1;
+
+        }
+
+        62.5% {
+            transform: translateY(12.5rem);
+            opacity: .001;
+        }
+        75% {
+            transform: translateY(0);
+            opacity: .001;
+        }
+
+        100% {
+            transform: translateY(0%);
+            opacity: 1;
+        }
+    }
+
+
+    body {
+        background: black;
+        height: 212.5rem;
+    }
+
+    .contact {
+        border-radius: 3.125rem;
+        text-decoration: none;
+        color: white;
+        width: 8.313rem;
+        padding-top: .5rem;
+    }
+
+    .contact:hover {
+        color: black;
+        background: white;
+    }
+
+    #con-sec {
+        z-index: 12;
+        font-family: 'Heebo', sans-serif;
+        font-size: 1.375rem;
+        padding-left: .625rem;
+        margin-top: .625rem;
+        font-weight: 800;
+        color: white;
+
+    }
+
+    #contact-bg {
+        background: white;
+        width: 100%;
+        height: 50rem;
+        margin-top: -.875rem;
+    }
+
+    #con-arr {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #con-form {
+        width: 37.5rem;
+        height: 37.5rem;
+        display: block;
+        box-shadow: black 1.563rem 1.563rem 2.813rem;
+        margin-top: 1rem;
+    }
+
+    #contact-box {
+        background: white;
+        width: 25rem;
+        height: 6.25rem;
+        margin-left: .625rem;
+        display: flex;
+        border-radius: 12.5rem;
+        color: white;
+        border: .438rem solid black;
+        box-shadow: black 1.25rem 1.25rem 3.438rem;
+        padding-top: 1.25rem;
+        padding-left: .625rem;
+        margin-top: 11.875rem;
+
+    }
+
+    #contact-section {
+        z-index: 12;
+        font-family: 'Heebo', sans-serif;
+        font-size: 3.6667rem;
+        padding-left: .625rem;
+        margin-top: .625rem;
+        font-weight: 800;
+        color: black;
+    }
+
+    .form-arr {
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 1.25rem;
+    }
+
+    #form-button {
+        margin-top: 3.125rem;
+        width: 10.938rem;
+        height: 2.188rem;
+        border-radius: 1.25rem;
+        background: dodgerblue;
+        font-family: 'Heebo', sans-serif;
+        color: white;
+        font-size: 1.0833rem;
+        margin-left: 12.5rem;
+
+    }
+
+    #gear1 {
+        width: 6.25rem;
+        height: 6.25rem;
+        animation: spin 15s ease forwards infinite;
+        position: absolute;
+        left: 46.875rem;
+        top: 113.75rem;
+
+    }
+
+    #gear2 {
+        width: 4.688rem;
+        height: 4.688rem;
+        animation: re-spin 15s ease forwards infinite;
+        position: absolute;
+        left: 50.688rem;
+        top: 117.688rem;
+
+    }
+
+    #gear3 {
+        width: 3.125rem;
+        height: 3.125rem;
+        animation: spin 17s ease forwards infinite;
+        position: absolute;
+        left: 72.813rem;
+        top: 137.25rem;
+
+    }
+
+    #gear4 {
+        width: 4.688rem;
+        height: 4.688rem;
+        animation: re-spin 17s ease forwards infinite;
+        position: absolute;
+        left: 74.438rem;
+        top: 138.938rem;
+
+    }
+
+    #gear5 {
+        width: 3.125rem;
+        height: 3.125rem;
+        animation: spin 17s ease forwards infinite;
+        position: absolute;
+        left: 77.75rem;
+        top: 137.375rem;
+
+    }
+
+    #gear6 {
+        width: 7.5rem;
+        height: 7.5rem;
+        animation: spin 13s ease forwards infinite;
+        position: absolute;
+        left: 52.75rem;
+        top: 141.125rem;
+
+    }
+
+    #gear7 {
+        width: 3.125rem;
+        height: 3.125rem;
+        animation: re-spin 8s ease forwards infinite;
+        position: absolute;
+        left: 74rem;
+        top: 118.625rem;
+
+    }
+
+    .GithubLogo {
+        width: 1.875rem;
+        height: 1.875rem;
+        border-radius: 0.313rem;
+        margin-right: 0.938rem;
+    }
+
+    .heroContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 6.25rem;
+
+    }
+
+    .heroText {
+        padding-left: 0;
+        position: relative;
+        right: 3.75rem;
+        top: 6.25rem;
+    }
+
+    .heroText-a {
+        font-family: 'Heebo', sans-serif;
+        color: white;
+        font-weight: lighter;
+        font-size: 1.6667rem;
+        margin-bottom: 0;
+    }
+
+    .heroText-b {
+        font-family: 'Heebo', sans-serif;
+        color: white;
+        font-weight: normal;
+        margin-top: 0.313rem;
+        margin-bottom: 0;
+    }
+
+    .heroText-c {
+        font-family: 'Heebo', sans-serif;
+        color: white;
+        margin-top: 0.313rem;
+        font-weight: lighter;
+    }
+
+    .input {
+        border-radius: .625rem;
+        width: 14.063rem;
+        height: 1.563rem;
+        text-align: center;
+        border: 0.188rem solid black;
+
+    }
+
+    .input-content {
+        width: 31.25rem;
+        height: 9.375rem;
+        text-align: center;
+        border: 0.188rem solid black;
+
+    }
+
+
+    #nav-list {
+        list-style: none;
+        display: flex;
+        padding-right: 2rem;
+
+    }
+
+    .linkedinLogo {
+        width: 1.875rem;
+        height: 1.875rem;
+        border-radius: 0.313rem;
+        margin-right: 0.938rem;
+    }
+
+    .live-site-text {
+        font-family: 'Heebo', sans-serif;
+        font-size: 1.1667rem;
+        width: 50%;
+        height: 100%;
+        padding-top: 0.938rem;
+        text-align: center;
+        float: left;
+    }
+
+    .live-site-text:hover {
+        background: white;
+        opacity: .5;
+
+    }
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        font-family: 'Heebo', sans-serif;
+        color: white;
+        position: fixed;
+        z-index: 12;
+        top: 0;
+        background: black;
+        width: 100%;
+
+
+
+    }
+
+    #name {
+        padding-left: 1.875rem;
+        font-weight: bolder;
+        font-size: 1.333rem;
+        padding-right: 4rem;
+        text-decoration: none;
+        color: white;
+
+
+    }
+
+
+    #name:hover {
+        color: azure;
+
+    }
+
+    .para {
+        width: 33.125rem;
+        padding-left: 2.5rem;
+        font-family: 'Heebo', sans-serif;
+        font-size: 1.5rem;
+        font-weight: 300;
+        word-spacing: 0.125rem;
+    }
+
+    .para-con {
+        width: 30.125rem;
+        padding-left: 4rem;
+        font-family: 'Heebo', sans-serif;
+        font-size: 1.5rem;
+        font-weight: 300;
+        word-spacing: 0.125rem;
+
+    }
+
+    .pic {
+        width: 24.438rem;
+        height: 27.5rem;
+        position: absolute;
+        top: 11.875rem;
+        left: 22.5rem;
+
+    }
+
+    #project-box {
+        background: black;
+        width: 25rem;
+        height: 6.25rem;
+        display: flex;
+        border-radius: 2.5rem;
+        color: black;
+        border: 0.438rem solid white;
+        box-shadow: white 1.25rem 1.25rem 3.438rem;
+        padding-top: 1.25rem;
+        margin-top: 12.088rem;
+        margin-right: 8.75rem;
+    }
+
+    #project-section {
+        z-index: 0;
+        font-family: 'Heebo', sans-serif;
+        font-size: 3.6667rem;
+        padding-left: .625rem;
+        margin-top: .625rem;
+        font-weight: 800;
+        color: white;
+    }
+
+
+
+    #project-content {
+
+        margin-top: -2.5rem;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .projects {
+        text-decoration: none;
+        color: white;
+        border-radius: 3.125rem;
+        width: 10.313rem;
+        padding-top: .5rem;
+    }
+
+    .projects:hover {
+        color: black;
+        background: white;
+
+    }
+
+    #pro1 {
+        width: 18.75rem;
+        height: 15.625rem;
+        background: white;
+        margin-bottom: 1.25rem;
+        margin-left: 1.875rem;
+        border-bottom-right-radius: .625rem;
+        border-bottom-left-radius: .625rem;
+        display: block;
+
+    }
+
+    #pro-feed1 {
+        background: gray;
+        width: 100%;
+        height: 20%;
+
+    }
+
+    #pro1pic {
+        width: 300px;
+        height: 11.5rem;
+        margin-top: -0.938rem;
+        border-bottom-right-radius: .625rem;
+        border-bottom-left-radius: .625rem;
+    }
+
+    #pro2 {
+        width: 18.75rem;
+        height: 15.625rem;
+        background: white;
+        margin-bottom: 1.25rem;
+        margin-left: -11.875rem;
+        border-bottom-right-radius: .625rem;
+        border-bottom-left-radius: .625rem;
+    }
+
+    #pro-feed2 {
+        background: gray;
+        width: 100%;
+        height: 20%;
+
+    }
+
+    #pro2pic {
+        width: 280px;
+        height: 11.5rem;
+        margin-top: -0.938rem;
+        margin-left: .625rem;
+    }
+
+    #pro3 {
+        width: 18.5rem;
+        height: 15.625rem;
+        background: white;
+        margin-bottom: 1.25rem;
+        margin-left: 1.875rem;
+        border-bottom-right-radius: .625rem;
+        border-bottom-left-radius: .625rem;
+    }
+
+    #pro-feed3 {
+        background: gray;
+        width: 100%;
+        height: 20%;
+    }
+
+    #pro4 {
+        width: 18.75rem;
+        height: 15.625rem;
+        background: white;
+        margin-bottom: 1.25rem;
+        margin-left: -190px;
+        border-bottom-right-radius: .625rem;
+        border-bottom-left-radius: .625rem;
+    }
+
+    #pro-feed4 {
+        background: gray;
+        width: 100%;
+        height: 20%;
+    }
+
+    .pro-display {
+        display: block;
+        margin-top: 2.5rem;
+    }
+
+    #pro-sec {
+        margin-bottom: 6rem;
+    }
+
+    .portraitBackground-a {
+        width: 24.438rem;
+        height: 27.5rem;
+        background-color: white;
+        opacity: .3;
+        position: relative;
+        left: 8.125rem;
+        top: 1.875rem;
+
+    }
+
+    .portraitBackground-b {
+        width: 24.438rem;
+        height: 27.5rem;
+        background-color: white;
+        opacity: .6;
+        position: relative;
+        top: 8.75rem;
+        right: 10.625rem;
+
+    }
+
+    #q1 {
+        animation: bounce 5s ease forwards infinite;
+        position: absolute;
+        left: 25rem;
+        bottom: -14.625rem;
+        width: 1.875rem;
+        height: 3.125rem;
+
+
+    }
+
+    #q2 {
+        animation: bounce 8s ease forwards infinite;
+        position: absolute;
+        left: 40.625rem;
+        bottom: -15.625rem;
+
+    }
+
+    #q3 {
+        animation: bounce 11s ease forwards infinite;
+        position: absolute;
+        left: 17.5rem;
+        bottom: -2.5rem;
+
+    }
+
+    #q4 {
+        animation: bounce 7s ease forwards infinite;
+        position: absolute;
+        bottom: -18.75rem;
+        left: 7.5rem;
+        width: 1.563rem;
+        height: 2.5rem;
+    }
+
+    #q5 {
+        animation: bounce 6s ease forwards infinite;
+        position: absolute;
+        bottom: -34.375rem;
+        left: 26.563rem;
+        width: 1.563rem;
+        height: 2.5rem;
+    }
+
+    @keyframes re-spin {
+        0% {
+            transform: rotate(-20deg);
+        }
+        100% {
+            transform: rotate(-380deg);
+        }
+    }
+
+    @keyframes spin {
+        0% {
+
+        }
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+
+    .twitterLogo {
+        width: 1.875rem;
+        height: 1.875rem;
+        border-radius: 0.313rem;
+    }
+
+
+    .techicon {
+        height: 3.75rem;
+        width: 3.75rem;
+        border-radius: .625rem;
+
+    }
+
+    .techbackground {
+        height: 4.375rem;
+        width: 5.313rem;
+        border-radius: 6.25rem;
+        background: gray;
+        justify-content: center;
+        text-align: center;
+        top: 50%;
+        padding-top: 0.75rem;
+        margin-left: 1.875rem;
+        box-shadow: black 0.313rem 0.313rem 1.25rem;
+    }
+
+    .view-code-text {
+        font-family: 'Heebo', sans-serif;
+        font-size: 1.1667rem;
+        width: 50%;
+        height: 100%;
+        padding-top: 0.938rem;
+        text-align: center;
+        float: right;
+    }
+
+    .view-code-text:hover {
+        background: white;
+        opacity: .5;
+    }
+
+    nav ul li {
+        padding-left: 0.313rem;
+        text-align: center;
+        padding-right: .625rem;
+    }
+
+
+
+
+}
+
+
+
+
+@media (max-width: 1200px) {
+
+    .about {
+        text-decoration: none;
+        color: white;
+        border-radius: 3.125rem;
+        width: 8.313rem;
+        padding-top: .5rem;
+
+    }
+
+    .about-header {
+        justify-content: space-between;
+        padding-right: 3.75rem;
+        padding-top: .3rem;
+        padding-left: .425rem;
+        margin-bottom: -3.125rem;
+    }
+
+    .about:hover {
+        background: white;
+        color: black;
+    }
+
+    #about-background {
+        background: white;
+        width: 100%;
+        height: 48.938rem;
+        margin-top: -1.25rem;
+
+
+
+    }
+
+    #about-section {
+        z-index: 12;
+        font-family: 'Heebo', sans-serif;
+        font-size: 2.6667rem;
+        padding-left: .625rem;
+        margin-top: .625rem;
+        font-weight: 800;
+        color: black;
+        width: 14rem;
+
+
+    }
+
+    #about-box1 {
+        background: white;
+        width: 30.75rem;
+        height: 5.25rem;
+        margin-left: -4.625rem;
+        display: flex;
+        border-radius: 5.5rem;
+        color: white;
+        border: .438rem solid black;
+        box-shadow: black 1.25rem 1.25rem 3.438rem;
+        padding-top: 1.25rem;
+        padding-left: .625rem;
+        margin-top: 6.813rem;
+
+
+    }
+
+    #about-align {
+        display: block;
+        padding-left: 12.5rem;
+        margin-top: -.625rem;
+    }
+
+    #about-info {
+        padding-left: 10.938rem;
+        display: flex;
+        font-family: 'Heebo', sans-serif;
+        font-size: 1.375rem;
+        margin-top: 1.25rem;
+    }
+
+    .arsenal {
+        margin-top: 1.875rem;
+        display: flex;
+    }
+
+    .breaker {
+        height: .213rem;
+        width: 27.675rem;
+        background: black;
+        margin-left: 1.25rem;
+        margin-top: -.625rem;
+    }
+
+
+    @keyframes bounce {
+        0% {
+            transform: translateY(0);
+            opacity: 1;
+
+        }
+
+        12.5% {
+            transform: translateY(0);
+            opacity: 0.0001;
+
+        }
+
+        25% {
+            transform: translateY(12.5rem);
+            opacity: .0001;
+        }
+
+        37.5% {
+            transform: translateY(12.5rem);
+            opacity: 1;
+
+        }
+
+        50% {
+            transform: translateY(12.5rem);
+            opacity: 1;
+
+        }
+
+        62.5% {
+            transform: translateY(12.5rem);
+            opacity: .001;
+        }
+        75% {
+            transform: translateY(0);
+            opacity: .001;
+        }
+
+        100% {
+            transform: translateY(0%);
+            opacity: 1;
+        }
+    }
+
+
+    body {
+        background: black;
+        height: 180.5rem;
+    }
+
+    .contact {
+        border-radius: 3.125rem;
+        text-decoration: none;
+        color: white;
+        width: 8.313rem;
+        padding-top: .5rem;
+    }
+
+    .contact:hover {
+        color: black;
+        background: white;
+    }
+
+    #con-sec {
+        z-index: 12;
+        font-family: 'Heebo', sans-serif;
+        font-size: 1.375rem;
+        padding-left: .625rem;
+        margin-top: .625rem;
+        font-weight: 800;
+        color: white;
+
+    }
+
+    #contact-bg {
+        background: white;
+        width: 100%;
+        height: 50rem;
+        margin-top: -.875rem;
+    }
+
+    #con-arr {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #con-form {
+        width: 33.5rem;
+        height: 31.5rem;
+        display: block;
+        box-shadow: black 1.563rem 1.563rem 2.813rem;
+        margin-top: 4rem;
+    }
+
+    #contact-box {
+        background: white;
+        width: 19rem;
+        height: 5.25rem;
+        margin-left: .625rem;
+        display: flex;
+        border-radius: 12.5rem;
+        color: white;
+        border: .438rem solid black;
+        box-shadow: black 1.25rem 1.25rem 3.438rem;
+        padding-top: 1.25rem;
+        padding-left: 1.325rem;
+        margin-top: 11.875rem;
+
+
+    }
+
+    #contact-section {
+        z-index: 12;
+        font-family: 'Heebo', sans-serif;
+        font-size: 2.6667rem;
+        padding-left: .625rem;
+        margin-top: .625rem;
+        font-weight: 800;
+        color: black;
+    }
+
+    .form-arr {
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 1.25rem;
+    }
+
+    #form-button {
+        margin-top: 3.125rem;
+        width: 10.938rem;
+        height: 2.188rem;
+        border-radius: 1.25rem;
+        background: dodgerblue;
+        font-family: 'Heebo', sans-serif;
+        color: white;
+        font-size: 1.0833rem;
+        margin-left: 11rem;
+
+    }
+
+    #gear1 {
+        width: 5.5rem;
+        height: 5.5rem;
+        animation: spin 15s ease forwards infinite;
+        position: absolute;
+        left: 41.875rem;
+        top: 112.75rem;
+
+    }
+
+    #gear2 {
+        width: 3.8rem;
+        height: 3.8rem;
+        animation: re-spin 15s ease forwards infinite;
+        position: absolute;
+        left: 45.55rem;
+        top: 116.55rem;
+
+    }
+
+    #gear3 {
+        width: 2.125rem;
+        height: 2.125rem;
+        animation: spin 17s ease forwards infinite;
+        position: absolute;
+        left: 63.313rem;
+        top: 117.95rem;
+
+    }
+
+    #gear4 {
+        width: 3.688rem;
+        height: 3.688rem;
+        animation: re-spin 17s ease forwards infinite;
+        position: absolute;
+        left: 64.438rem;
+        top: 118.938rem;
+
+    }
+
+    #gear5 {
+        width: 2.125rem;
+        height: 2.125rem;
+        animation: spin 17s ease forwards infinite;
+        position: absolute;
+        left: 67.75rem;
+        top: 118.875rem;
+
+    }
+
+    #gear6 {
+        width: 5.5rem;
+        height: 5.5rem;
+        animation: spin 13s ease forwards infinite;
+        position: absolute;
+        left: 62.75rem;
+        top: 97.125rem;
+
+    }
+
+    #gear7 {
+        width: 3.125rem;
+        height: 3.125rem;
+        animation: re-spin 8s ease forwards infinite;
+        position: absolute;
+        left: 44rem;
+        top: 94.625rem;
+
+    }
+
+    .GithubLogo {
+        width: 1.875rem;
+        height: 1.875rem;
+        border-radius: 0.313rem;
+        margin-right: 0.938rem;
+    }
+
+    .heroContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 6.25rem;
+
+    }
+
+    .h2 {
+        font-size: 1.665rem;
+        margin-top: 2rem;
+    }
+
+    .heroText {
+        padding-left: 1.25rem;
+        position: relative;
+        right: 3.75rem;
+        top: 6.25rem;
+    }
+
+    .heroText-a {
+        font-family: 'Heebo', sans-serif;
+        color: white;
+        font-weight: lighter;
+        font-size: 1.6667rem;
+        margin-bottom: 0;
+    }
+
+    .heroText-b {
+        font-family: 'Heebo', sans-serif;
+        color: white;
+        font-weight: normal;
+        margin-top: 0.313rem;
+        margin-bottom: 0;
+    }
+
+    .heroText-c {
+        font-family: 'Heebo', sans-serif;
+        color: white;
+        margin-top: 0.313rem;
+        font-weight: lighter;
+    }
+
+    .input {
+        border-radius: .625rem;
+        width: 10.063rem;
+        height: 1.563rem;
+        text-align: center;
+        border: 0.188rem solid black;
+
+    }
+
+    .input-content {
+        width: 24.75rem;
+        height: 9.375rem;
+        text-align: center;
+        border: 0.188rem solid black;
+
+    }
+
+
+    #nav-list {
+        list-style: none;
+        display: flex;
+        padding-right: 2rem;
+
+    }
+
+    .linkedinLogo {
+        width: 1.875rem;
+        height: 1.875rem;
+        border-radius: 0.313rem;
+        margin-right: 0.938rem;
+    }
+
+    .live-site-text {
+        font-family: 'Heebo', sans-serif;
+        font-size: .9rem;
+        width: 50%;
+        height: 100%;
+        padding-top: 0.938rem;
+        text-align: center;
+        float: left;
+    }
+
+    .live-site-text:hover {
+        background: white;
+        opacity: .5;
+
+    }
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        font-family: 'Heebo', sans-serif;
+        color: white;
+        position: fixed;
+        z-index: 12;
+        top: 0;
+        background: black;
+        width: 100%;
+
+
+
+    }
+
+    #name {
+        padding-left: 1.875rem;
+        font-weight: bolder;
+        font-size: 1.333rem;
+        padding-right: 4rem;
+        text-decoration: none;
+        color: white;
+
+
+    }
+
+
+    #name:hover {
+        color: azure;
+
+    }
+
+    .para {
+        width: 33.125rem;
+        padding-left: 2.5rem;
+        font-family: 'Heebo', sans-serif;
+        font-size: 1.5rem;
+        font-weight: 300;
+        word-spacing: 0.125rem;
+    }
+
+    .para-con {
+        width: 29.125rem;
+        padding-left: 4rem;
+        font-family: 'Heebo', sans-serif;
+        font-size: 1.2rem;
+        font-weight: 300;
+        word-spacing: 0.125rem;
+
+    }
+
+    .pic {
+        width: 18.365rem;
+        height: 20.916rem;
+        position: absolute;
+        top: 10.575rem;
+        left: 18.5rem;
+
+    }
+
+    #project-box {
+        background: black;
+        width: 19rem;
+        height: 5rem;
+        display: flex;
+        border-radius: 3.5rem;
+        color: black;
+        border: 0.438rem solid white;
+        box-shadow: white 1.25rem 1.25rem 3.438rem;
+        padding-top: .8rem;
+        margin-top: 10.688rem;
+        margin-right: 4.75rem;
+        margin-left: 6rem;
+
+    }
+
+    #project-section {
+        z-index: 0;
+        font-family: 'Heebo', sans-serif;
+        font-size: 2.6667rem;
+        padding-left: .625rem;
+        margin-top: .625rem;
+        font-weight: 800;
+        color: white;
+
+    }
+
+
+
+    #project-content {
+
+        margin-top: -2.5rem;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .projects {
+        text-decoration: none;
+        color: white;
+        border-radius: 3.125rem;
+        width: 8.313rem;
+        padding-top: .5rem;
+    }
+
+    .projects:hover {
+        color: black;
+        background: white;
+
+    }
+
+    #pro1 {
+        width: 15.75rem;
+        height: 13.625rem;
+        background: white;
+        margin-bottom: 2.25rem;
+        margin-left: 1.875rem;
+        border-bottom-right-radius: .625rem;
+        border-bottom-left-radius: .625rem;
+        display: block;
+
+
+    }
+
+    #pro-feed1 {
+        background: gray;
+        width: 100%;
+        height: 20%;
+
+    }
+
+    #pro1pic {
+        width: 15.625rem;
+        height: 10rem;
+        margin-top: -0.938rem;
+        border-bottom-right-radius: .625rem;
+        border-bottom-left-radius: .625rem;
+    }
+
+    #pro2 {
+        width: 15.75rem;
+        height: 13.625rem;
+        background: white;
+        margin-bottom: 2.25rem;
+        margin-left: 0;
+        border-bottom-right-radius: .625rem;
+        border-bottom-left-radius: .625rem;
+    }
+
+    #pro-feed2 {
+        background: gray;
+        width: 100%;
+        height: 20%;
+
+    }
+
+    #pro2pic {
+        width: 14.5rem;
+        height: 10rem;
+        margin-top: -0.938rem;
+        margin-left: .625rem;
+    }
+
+    #pro3 {
+        width: 15.5rem;
+        height: 13.625rem;
+        background: white;
+        margin-bottom: 2.25rem;
+        margin-left: 1.875rem;
+        border-bottom-right-radius: .625rem;
+        border-bottom-left-radius: .625rem;
+    }
+
+    #pro-feed3 {
+        background: gray;
+        width: 100%;
+        height: 20%;
+    }
+
+    #pro4 {
+        width: 15.75rem;
+        height: 13.625rem;
+        background: white;
+        margin-bottom: 2.25rem;
+        margin-left: 0;
+        border-bottom-right-radius: .625rem;
+        border-bottom-left-radius: .625rem;
+    }
+
+    #pro-feed4 {
+        background: gray;
+        width: 100%;
+        height: 20%;
+    }
+
+    .pro-display {
+        display: block;
+        margin-top: 2.5rem;
+    }
+
+    .portraitBackground-a {
+        width: 18.365rem;
+        height: 20.916rem;
+        background-color: white;
+        opacity: .3;
+        position: relative;
+        left: 8.125rem;
+        top: 1.875rem;
+
+    }
+
+    .portraitBackground-b {
+        width: 18.365rem;
+        height: 20.916rem;
+        background-color: white;
+        opacity: .6;
+        position: relative;
+        top: 7.05rem;
+        right: 6.125rem;
+
+    }
+
+    #q1 {
+        animation: bounce 5s ease forwards infinite;
+        position: absolute;
+        left: 25rem;
+        bottom: -10.625rem;
+        width: 1.875rem;
+        height: 3.125rem;
+
+
+    }
+
+    #q2 {
+        animation: bounce 8s ease forwards infinite;
+        position: absolute;
+        left: 10.625rem;
+        bottom: -10.625rem;
+
+    }
+
+    #q3 {
+        animation: bounce 11s ease forwards infinite;
+        position: absolute;
+        left: 17.5rem;
+        bottom: -12.5rem;
+
+    }
+
+    #q4 {
+        animation: bounce 7s ease forwards infinite;
+        position: absolute;
+        bottom: -12.75rem;
+        left: 7.5rem;
+        width: 1.563rem;
+        height: 2.5rem;
+    }
+
+    #q5 {
+        animation: bounce 6s ease forwards infinite;
+        position: absolute;
+        bottom: -34.375rem;
+        left: 26.563rem;
+        width: 1.563rem;
+        height: 2.5rem;
+    }
+
+    @keyframes re-spin {
+        0% {
+            transform: rotate(-20deg);
+        }
+        100% {
+            transform: rotate(-380deg);
+        }
+    }
+
+    @keyframes spin {
+        0% {
+
+        }
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+
+    .twitterLogo {
+        width: 1.875rem;
+        height: 1.875rem;
+        border-radius: 0.313rem;
+    }
+
+
+    .techicon {
+        height: 2.88rem;
+        width: 2.88rem;
+        border-radius: .625rem;
+
+    }
+
+    .techbackground {
+        height: 3.365rem;
+        width: 4.086rem;
+        border-radius: 6.25rem;
+        background: gray;
+        justify-content: center;
+        text-align: center;
+        top: 50%;
+        padding-top: 0.75rem;
+        margin-left: 1.875rem;
+        box-shadow: black 0.313rem 0.313rem 1.25rem;
+    }
+
+    .view-code-text {
+        font-family: 'Heebo', sans-serif;
+        font-size: .9rem;
+        width: 50%;
+        height: 100%;
+        padding-top: 0.938rem;
+        text-align: center;
+        float: right;
+    }
+
+    .view-code-text:hover {
+        background: white;
+        opacity: .5;
+    }
+
+    nav ul li {
+        padding-left: 0.313rem;
+        text-align: center;
+        padding-right: .625rem;
+    }
+
+}
+
+
+
+@media (max-width: 980px) {
+
+    .about {
+        text-decoration: none;
+        color: white;
+        border-radius: 3.125rem;
+        width: 6.313rem;
+        padding-top: .5rem;
+        height: 1.4rem;
+
+    }
+
+    .about-header {
+        justify-content: space-between;
+        padding-right: 3.75rem;
+        padding-top: .3rem;
+        padding-left: .425rem;
+        margin-bottom: -3.125rem;
+    }
+
+    .about:hover {
+        background: white;
+        color: black;
+    }
+
+    #about-background {
+        background: white;
+        width: 100%;
+        height: 38.938rem;
+        margin-top: -1.25rem;
+
+
+
+    }
+
+    #about-section {
+        z-index: 12;
+        font-family: 'Heebo', sans-serif;
+        font-size: 2.0rem;
+        padding-left: .625rem;
+        margin-top: .625rem;
+        font-weight: 800;
+        color: black;
+        width: 14rem;
+
+
+    }
+
+    #about-box1 {
+        background: white;
+        width: 12.75rem;
+        height: 4.25rem;
+        margin-left: -7.625rem;
+        display: flex;
+        border-radius: 5.5rem;
+        color: white;
+        border: .438rem solid black;
+        box-shadow: black 1.25rem 1.25rem 3.438rem;
+        padding-top: .45rem;
+        padding-left: 1.2rem;
+        margin-top: 6.813rem;
+
+
+    }
+
+    #about-align {
+        display: block;
+        padding-left: 6.5rem;
+        margin-top: -.625rem;
+    }
+
+    #about-info {
+        padding-left: 10.938rem;
+        display: flex;
+        font-family: 'Heebo', sans-serif;
+        font-size: 1.375rem;
+        margin-top: 1.25rem;
+    }
+
+    .arsenal {
+        margin-top: 1.875rem;
+        display: flex;
+    }
+
+    .breaker {
+        height: .213rem;
+        width: 26.675rem;
+        background: black;
+        margin-left: 1.25rem;
+        margin-top: -.625rem;
+    }
+
+
+    @keyframes bounce {
+        0% {
+            transform: translateY(0);
+            opacity: 1;
+
+        }
+
+        12.5% {
+            transform: translateY(0);
+            opacity: 0.0001;
+
+        }
+
+        25% {
+            transform: translateY(12.5rem);
+            opacity: .0001;
+        }
+
+        37.5% {
+            transform: translateY(12.5rem);
+            opacity: 1;
+
+        }
+
+        50% {
+            transform: translateY(12.5rem);
+            opacity: 1;
+
+        }
+
+        62.5% {
+            transform: translateY(12.5rem);
+            opacity: .001;
+        }
+        75% {
+            transform: translateY(0);
+            opacity: .001;
+        }
+
+        100% {
+            transform: translateY(0%);
+            opacity: 1;
+        }
+    }
+
+
+    body {
+        background: black;
+        height: 160.5rem;
+    }
+
+    .contact {
+        border-radius: 3.125rem;
+        text-decoration: none;
+        color: white;
+        width: 6.313rem;
+        padding-top: .5rem;
+        height: 1.4rem;
+    }
+
+    .contact:hover {
+        color: black;
+        background: white;
+    }
+
+    #con-sec {
+        z-index: 12;
+        font-family: 'Heebo', sans-serif;
+        font-size: 1.375rem;
+        padding-left: .625rem;
+        margin-top: -2rem;
+        font-weight: 800;
+        color: white;
+
+    }
+
+    #contact-bg {
+        background: white;
+        width: 100%;
+        height: 45rem;
+        margin-top: -.875rem;
+    }
+
+    #con-arr {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #con-form {
+        width: 28.5rem;
+        height: 27.5rem;
+        display: block;
+        box-shadow: black 1.563rem 1.563rem 2.813rem;
+        margin-top: 4rem;
+    }
+
+    #contact-box {
+        background: white;
+        width: 14rem;
+        height: 4rem;
+        margin-left: .625rem;
+        display: flex;
+        border-radius: 12.5rem;
+        color: white;
+        border: .438rem solid black;
+        box-shadow: black 1.25rem 1.25rem 3.438rem;
+        padding-top: .5rem;
+        padding-left: 1.325rem;
+        margin-top: 11.875rem;
+
+
+    }
+
+    #contact-section {
+        z-index: 12;
+        font-family: 'Heebo', sans-serif;
+        font-size: 2rem;
+        padding-left: .625rem;
+        margin-top: .625rem;
+        font-weight: 800;
+        color: black;
+    }
+
+    .form-arr {
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 1.25rem;
+    }
+
+    #form-button {
+        margin-top: 3.125rem;
+        width: 8.938rem;
+        height: 1.5rem;
+        border-radius: 1.25rem;
+        background: dodgerblue;
+        font-family: 'Heebo', sans-serif;
+        color: white;
+        font-size: 1.0833rem;
+        margin-left: 10rem;
+
+    }
+
+
+
+    #gear3 {
+        width: 2.125rem;
+        height: 2.125rem;
+        animation: spin 17s ease forwards infinite;
+        position: absolute;
+        left: 41.313rem;
+        top: 100.95rem;
+
+    }
+
+    #gear4 {
+        width: 3.688rem;
+        height: 3.688rem;
+        animation: re-spin 17s ease forwards infinite;
+        position: absolute;
+        left: 42.438rem;
+        top: 101.938rem;
+
+    }
+
+    #gear5 {
+        width: 2.125rem;
+        height: 2.125rem;
+        animation: spin 17s ease forwards infinite;
+        position: absolute;
+        left: 45.75rem;
+        top: 102.875rem;
+
+    }
+
+    #gear6 {
+        width: 5.5rem;
+        height: 5.5rem;
+        animation: spin 13s ease forwards infinite;
+        position: absolute;
+        left: 52.75rem;
+        top: 82.125rem;
+
+    }
+
+    #gear7 {
+        width: 3.125rem;
+        height: 3.125rem;
+        animation: re-spin 8s ease forwards infinite;
+        position: absolute;
+        left: 35rem;
+        top: 85.625rem;
+
+    }
+
+    .GithubLogo {
+        width: 1.275rem;
+        height: 1.275rem;
+        border-radius: 0.313rem;
+        margin-right: 0.938rem;
+    }
+
+    .heroContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 6.25rem;
+
+    }
+
+    .h2 {
+        font-size: 1.265rem;
+        margin-top: 2rem;
+    }
+
+    .heroText {
+        padding-left: 1.25rem;
+        position: relative;
+        right: 2.35rem;
+        top: 4.25rem;
+    }
+
+    .heroText-a {
+        font-family: 'Heebo', sans-serif;
+        color: white;
+        font-weight: lighter;
+        font-size: 1.2rem;
+        margin-bottom: 0;
+    }
+
+    .heroText-b {
+        font-family: 'Heebo', sans-serif;
+        color: white;
+        font-weight: normal;
+        margin-top: 0.313rem;
+        margin-bottom: 0;
+        font-size: 1.2rem;
+    }
+
+    .heroText-c {
+        font-family: 'Heebo', sans-serif;
+        color: white;
+        margin-top: 0.313rem;
+        font-weight: lighter;
+        font-size: .8rem;
+    }
+
+    .input {
+        border-radius: .625rem;
+        width: 8.063rem;
+        height: 1.063rem;
+        text-align: center;
+        border: 0.188rem solid black;
+
+    }
+
+    .input-content {
+        width: 20.45rem;
+        height: 7.375rem;
+        border: 0.188rem solid black;
+
+    }
+
+
+    #nav-list {
+        list-style: none;
+        display: flex;
+        padding-right: 2rem;
+        font-size: .8rem;
+
+    }
+
+    .linkedinLogo {
+        width: 1.275rem;
+        height: 1.275rem;
+        border-radius: 0.313rem;
+        margin-right: 0.938rem;
+    }
+
+    .live-site-text {
+        font-family: 'Heebo', sans-serif;
+        font-size: .9rem;
+        width: 50%;
+        height: 100%;
+        padding-top: 0.938rem;
+        text-align: center;
+        float: left;
+    }
+
+    .live-site-text:hover {
+        background: white;
+        opacity: .5;
+
+    }
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        font-family: 'Heebo', sans-serif;
+        color: white;
+        position: fixed;
+        z-index: 12;
+        top: 0;
+        background: black;
+        width: 100%;
+
+
+
+    }
+
+    #name {
+        padding-left: 1.875rem;
+        font-weight: bolder;
+        font-size: 1rem;
+        padding-right: 4rem;
+        text-decoration: none;
+        color: white;
+
+
+    }
+
+
+    #name:hover {
+        color: azure;
+
+    }
+
+    .para {
+        width: 28.125rem;
+        padding-left: 2.5rem;
+        font-family: 'Heebo', sans-serif;
+        font-size: 1.2rem;
+        font-weight: 300;
+        word-spacing: 0.125rem;
+    }
+
+    .para-con {
+        width: 22.125rem;
+        padding-left: 4rem;
+        font-family: 'Heebo', sans-serif;
+        font-size: 1rem;
+        font-weight: 300;
+        word-spacing: 0.125rem;
+        margin-bottom: 0;
+
+    }
+
+    .pic {
+        width: 14.365rem;
+        height: 16.916rem;
+        position: absolute;
+        top: 8.575rem;
+        left: 16rem;
+
+    }
+
+    #project-box {
+        background: black;
+        width: 19rem;
+        height: 4rem;
+        display: flex;
+        border-radius: 3.5rem;
+        color: black;
+        border: 0.438rem solid white;
+        box-shadow: white 1.25rem 1.25rem 3.438rem;
+        padding-top: .8rem;
+        margin-top: 10.688rem;
+        margin-right: 4.75rem;
+        margin-left: 6rem;
+
+    }
+
+    #project-section {
+        z-index: 0;
+        font-family: 'Heebo', sans-serif;
+        font-size: 2rem;
+        padding-left: .625rem;
+        margin-top: .625rem;
+        font-weight: 800;
+        color: white;
+
+    }
+
+
+
+    #project-content {
+
+        margin-top: -2.5rem;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .projects {
+        text-decoration: none;
+        color: white;
+        border-radius: 3.125rem;
+        width: 6.313rem;
+        padding-top: .5rem;
+        height: 1.4rem;
+    }
+
+    .projects:hover {
+        color: black;
+        background: white;
+
+    }
+
+    #pro1 {
+        width: 12.75rem;
+        height: 10.625rem;
+        background: white;
+        margin-bottom: 2.25rem;
+        margin-left: 1.875rem;
+        border-bottom-right-radius: .625rem;
+        border-bottom-left-radius: .625rem;
+        display: block;
+
+
+    }
+
+    #pro-feed1 {
+        background: gray;
+        width: 100%;
+        height: 20%;
+
+    }
+
+    #pro1pic {
+        width: 12.525rem;
+        height: 8.5rem;
+        margin-top: -0.938rem;
+        border-bottom-right-radius: .625rem;
+        border-bottom-left-radius: .625rem;
+    }
+
+    #pro2 {
+        width: 12.75rem;
+        height: 10.625rem;
+        background: white;
+        margin-bottom: 2.25rem;
+        margin-left: 0;
+        border-bottom-right-radius: .625rem;
+        border-bottom-left-radius: .625rem;
+    }
+
+    #pro-feed2 {
+        background: gray;
+        width: 100%;
+        height: 20%;
+
+    }
+
+    #pro2pic {
+        width: 11.5rem;
+        height: 8.5rem;
+        margin-top: -0.938rem;
+        margin-left: .625rem;
+    }
+
+    #pro3 {
+        width: 12.75rem;
+        height: 10.625rem;
+        background: white;
+        margin-bottom: 2.25rem;
+        margin-left: 1.875rem;
+        border-bottom-right-radius: .625rem;
+        border-bottom-left-radius: .625rem;
+    }
+
+    #pro-feed3 {
+        background: gray;
+        width: 100%;
+        height: 20%;
+    }
+
+    #pro4 {
+        width: 12.75rem;
+        height: 10.625rem;
+        background: white;
+        margin-bottom: 2.25rem;
+        margin-left: 0;
+        border-bottom-right-radius: .625rem;
+        border-bottom-left-radius: .625rem;
+    }
+
+    #pro-feed4 {
+        background: gray;
+        width: 100%;
+        height: 20%;
+    }
+
+    .pro-display {
+        display: block;
+        margin-top: 2.5rem;
+    }
+
+    .portraitBackground-a {
+        width: 14.365rem;
+        height: 16.916rem;
+        background-color: white;
+        opacity: .3;
+        position: relative;
+        left: 4.625rem;
+        top: 0.875rem;
+
+    }
+
+    .portraitBackground-b {
+        width: 14.365rem;
+        height: 16.916rem;
+        background-color: white;
+        opacity: .6;
+        position: relative;
+        top: 4.55rem;
+        right: 5.825rem;
+
+    }
+
+    #q1 {
+        animation: bounce 5s ease forwards infinite;
+        position: absolute;
+        left: 20rem;
+        bottom: -10.625rem;
+        width: 1.875rem;
+        height: 3.125rem;
+
+
+    }
+
+    #q2 {
+        animation: bounce 8s ease forwards infinite;
+        position: absolute;
+        left: 10.625rem;
+        bottom: -10.625rem;
+
+    }
+
+
+
+    #q4 {
+        animation: bounce 7s ease forwards infinite;
+        position: absolute;
+        bottom: -12.75rem;
+        left: 7.5rem;
+        width: 1.563rem;
+        height: 2.5rem;
+    }
+
+
+
+    @keyframes re-spin {
+        0% {
+            transform: rotate(-20deg);
+        }
+        100% {
+            transform: rotate(-380deg);
+        }
+    }
+
+    @keyframes spin {
+        0% {
+
+        }
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+
+    .twitterLogo {
+        width: 1.275rem;
+        height: 1.275rem;
+        border-radius: 0.313rem;
+    }
+
+
+    .techicon {
+        height: 2.18rem;
+        width: 2.18rem;
+        border-radius: .625rem;
+
+    }
+
+    .techbackground {
+        height: 2.665rem;
+        width: 3.086rem;
+        border-radius: 6.25rem;
+        background: gray;
+        justify-content: center;
+        text-align: center;
+        top: 50%;
+        padding-top: 0.35rem;
+        margin-left: 1.875rem;
+        box-shadow: black 0.313rem 0.313rem 1.25rem;
+    }
+
+    .view-code-text {
+        font-family: 'Heebo', sans-serif;
+        font-size: .9rem;
+        width: 50%;
+        height: 100%;
+        padding-top: 0.938rem;
+        text-align: center;
+        float: right;
+    }
+
+    .view-code-text:hover {
+        background: white;
+        opacity: .5;
+    }
+
+    nav ul li {
+        padding-left: 0.313rem;
+        text-align: center;
+        padding-right: .625rem;
+    }
+
+
+}
+
+
+
+
+@media (max-width: 850px) {
+
+    .about {
+        text-decoration: none;
+        color: white;
+        border-radius: 3.125rem;
+        width: 6.313rem;
+        padding-top: .5rem;
+        height: 1.4rem;
+
+    }
+
+    .about-header {
+        justify-content: space-between;
+        padding-right: 3.75rem;
+        padding-top: .3rem;
+        padding-left: .425rem;
+        margin-bottom: -3.125rem;
+    }
+
+    .about:hover {
+        background: white;
+        color: black;
+    }
+
+    #about-background {
+        background: white;
+        width: 100%;
+        height: 38.938rem;
+        margin-top: -1.25rem;
+
+
+
+    }
+
+    #about-section {
+        z-index: 12;
+        font-family: 'Heebo', sans-serif;
+        font-size: 2.0rem;
+        padding-left: .625rem;
+        margin-top: .625rem;
+        font-weight: 800;
+        color: black;
+        width: 14rem;
+
+
+    }
+
+    #about-box1 {
+        background: white;
+        width: 12.75rem;
+        height: 4.25rem;
+        margin-left: -7.625rem;
+        display: flex;
+        border-radius: 5.5rem;
+        color: white;
+        border: .438rem solid black;
+        box-shadow: black 1.25rem 1.25rem 3.438rem;
+        padding-top: .45rem;
+        padding-left: 1.2rem;
+        margin-top: 6.813rem;
+
+
+    }
+
+    #about-align {
+        display: block;
+        padding-left: 6.5rem;
+        margin-top: -.625rem;
+    }
+
+    #about-info {
+        padding-left: 10.938rem;
+        display: flex;
+        font-family: 'Heebo', sans-serif;
+        font-size: 1.375rem;
+        margin-top: 1.25rem;
+    }
+
+    .arsenal {
+        margin-top: 1.875rem;
+        display: flex;
+    }
+
+    .breaker {
+        height: .213rem;
+        width: 26.675rem;
+        background: black;
+        margin-left: 1.25rem;
+        margin-top: -.625rem;
+    }
+
+
+    @keyframes bounce {
+        0% {
+            transform: translateY(0);
+            opacity: 1;
+
+        }
+
+        12.5% {
+            transform: translateY(0);
+            opacity: 0.0001;
+
+        }
+
+        25% {
+            transform: translateY(12.5rem);
+            opacity: .0001;
+        }
+
+        37.5% {
+            transform: translateY(12.5rem);
+            opacity: 1;
+
+        }
+
+        50% {
+            transform: translateY(12.5rem);
+            opacity: 1;
+
+        }
+
+        62.5% {
+            transform: translateY(12.5rem);
+            opacity: .001;
+        }
+        75% {
+            transform: translateY(0);
+            opacity: .001;
+        }
+
+        100% {
+            transform: translateY(0%);
+            opacity: 1;
+        }
+    }
+
+
+    body {
+        background: black;
+        height: 160.5rem;
+    }
+
+    .contact {
+        border-radius: 3.125rem;
+        text-decoration: none;
+        color: white;
+        width: 6.313rem;
+        padding-top: .5rem;
+        height: 1.4rem;
+    }
+
+    .contact:hover {
+        color: black;
+        background: white;
+    }
+
+    #con-sec {
+        z-index: 12;
+        font-family: 'Heebo', sans-serif;
+        font-size: 1.375rem;
+        padding-left: .625rem;
+        margin-top: -2rem;
+        font-weight: 800;
+        color: white;
+
+    }
+
+    #contact-bg {
+        background: white;
+        width: 100%;
+        height: 45rem;
+        margin-top: -.875rem;
+    }
+
+    #con-arr {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #con-form {
+        width: 28.5rem;
+        height: 27.5rem;
+        display: block;
+        box-shadow: black 1.563rem 1.563rem 2.813rem;
+        margin-top: 4rem;
+    }
+
+    #contact-box {
+        background: white;
+        width: 14rem;
+        height: 4rem;
+        margin-left: .625rem;
+        display: flex;
+        border-radius: 12.5rem;
+        color: white;
+        border: .438rem solid black;
+        box-shadow: black 1.25rem 1.25rem 3.438rem;
+        padding-top: .5rem;
+        padding-left: 1.325rem;
+        margin-top: 11.875rem;
+
+
+    }
+
+    #contact-section {
+        z-index: 12;
+        font-family: 'Heebo', sans-serif;
+        font-size: 2rem;
+        padding-left: .625rem;
+        margin-top: .625rem;
+        font-weight: 800;
+        color: black;
+    }
+
+    .form-arr {
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 1.25rem;
+    }
+
+    #form-button {
+        margin-top: 3.125rem;
+        width: 8.938rem;
+        height: 1.5rem;
+        border-radius: 1.25rem;
+        background: dodgerblue;
+        font-family: 'Heebo', sans-serif;
+        color: white;
+        font-size: 1.0833rem;
+        margin-left: 10rem;
+
+    }
+
+
+
+    #gear3 {
+        width: 2.125rem;
+        height: 2.125rem;
+        animation: spin 17s ease forwards infinite;
+        position: absolute;
+        left: 41.313rem;
+        top: 100.95rem;
+
+    }
+
+    #gear4 {
+        width: 3.688rem;
+        height: 3.688rem;
+        animation: re-spin 17s ease forwards infinite;
+        position: absolute;
+        left: 42.438rem;
+        top: 101.938rem;
+
+    }
+
+    #gear5 {
+        width: 2.125rem;
+        height: 2.125rem;
+        animation: spin 17s ease forwards infinite;
+        position: absolute;
+        left: 45.75rem;
+        top: 102.875rem;
+
+    }
+
+    #gear6 {
+        width: 5.5rem;
+        height: 5.5rem;
+        animation: spin 13s ease forwards infinite;
+        position: absolute;
+        left: 52.75rem;
+        top: 82.125rem;
+
+    }
+
+    #gear7 {
+        width: 3.125rem;
+        height: 3.125rem;
+        animation: re-spin 8s ease forwards infinite;
+        position: absolute;
+        left: 35rem;
+        top: 85.625rem;
+
+    }
+
+    .GithubLogo {
+        width: 1.275rem;
+        height: 1.275rem;
+        border-radius: 0.313rem;
+        margin-right: 0.938rem;
+    }
+
+    .heroContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 6.25rem;
+
+    }
+
+    .h2 {
+        font-size: 1.265rem;
+        margin-top: 2rem;
+    }
+
+    .heroText {
+        padding-left: 1.25rem;
+        position: relative;
+        right: 2.35rem;
+        top: 4.25rem;
+    }
+
+    .heroText-a {
+        font-family: 'Heebo', sans-serif;
+        color: white;
+        font-weight: lighter;
+        font-size: 1.2rem;
+        margin-bottom: 0;
+    }
+
+    .heroText-b {
+        font-family: 'Heebo', sans-serif;
+        color: white;
+        font-weight: normal;
+        margin-top: 0.313rem;
+        margin-bottom: 0;
+        font-size: 1.2rem;
+    }
+
+    .heroText-c {
+        font-family: 'Heebo', sans-serif;
+        color: white;
+        margin-top: 0.313rem;
+        font-weight: lighter;
+        font-size: .8rem;
+    }
+
+    .input {
+        border-radius: .625rem;
+        width: 8.063rem;
+        height: 1.063rem;
+        text-align: center;
+        border: 0.188rem solid black;
+
+    }
+
+    .input-content {
+        width: 20.45rem;
+        height: 7.375rem;
+        border: 0.188rem solid black;
+
+    }
+
+
+    #nav-list {
+        list-style: none;
+        display: flex;
+        padding-right: 2rem;
+        font-size: .8rem;
+
+    }
+
+    .linkedinLogo {
+        width: 1.275rem;
+        height: 1.275rem;
+        border-radius: 0.313rem;
+        margin-right: 0.938rem;
+    }
+
+    .live-site-text {
+        font-family: 'Heebo', sans-serif;
+        font-size: .9rem;
+        width: 50%;
+        height: 100%;
+        padding-top: 0.938rem;
+        text-align: center;
+        float: left;
+    }
+
+    .live-site-text:hover {
+        background: white;
+        opacity: .5;
+
+    }
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        font-family: 'Heebo', sans-serif;
+        color: white;
+        position: fixed;
+        z-index: 12;
+        top: 0;
+        background: black;
+        width: 100%;
+
+
+
+    }
+
+    #name {
+        padding-left: 1.875rem;
+        font-weight: bolder;
+        font-size: 1rem;
+        padding-right: 4rem;
+        text-decoration: none;
+        color: white;
+
+
+    }
+
+
+    #name:hover {
+        color: azure;
+
+    }
+
+    .para {
+        width: 28.125rem;
+        padding-left: 2.5rem;
+        font-family: 'Heebo', sans-serif;
+        font-size: 1.2rem;
+        font-weight: 300;
+        word-spacing: 0.125rem;
+    }
+
+    .para-con {
+        width: 22.125rem;
+        padding-left: 4rem;
+        font-family: 'Heebo', sans-serif;
+        font-size: 1rem;
+        font-weight: 300;
+        word-spacing: 0.125rem;
+        margin-bottom: 0;
+
+    }
+
+    .pic {
+        width: 14.365rem;
+        height: 16.916rem;
+        position: absolute;
+        top: 8.575rem;
+        left: 16rem;
+
+    }
+
+    #project-box {
+        background: black;
+        width: 19rem;
+        height: 4rem;
+        display: flex;
+        border-radius: 3.5rem;
+        color: black;
+        border: 0.438rem solid white;
+        box-shadow: white 1.25rem 1.25rem 3.438rem;
+        padding-top: .8rem;
+        margin-top: 10.688rem;
+        margin-right: 4.75rem;
+        margin-left: 6rem;
+
+    }
+
+    #project-section {
+        z-index: 0;
+        font-family: 'Heebo', sans-serif;
+        font-size: 2rem;
+        padding-left: .625rem;
+        margin-top: .625rem;
+        font-weight: 800;
+        color: white;
+
+    }
+
+
+
+    #project-content {
+
+        margin-top: -2.5rem;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .projects {
+        text-decoration: none;
+        color: white;
+        border-radius: 3.125rem;
+        width: 6.313rem;
+        padding-top: .5rem;
+        height: 1.4rem;
+    }
+
+    .projects:hover {
+        color: black;
+        background: white;
+
+    }
+
+    #pro1 {
+        width: 12.75rem;
+        height: 10.625rem;
+        background: white;
+        margin-bottom: 2.25rem;
+        margin-left: 1.875rem;
+        border-bottom-right-radius: .625rem;
+        border-bottom-left-radius: .625rem;
+        display: block;
+
+
+    }
+
+    #pro-feed1 {
+        background: gray;
+        width: 100%;
+        height: 20%;
+
+    }
+
+    #pro1pic {
+        width: 12.525rem;
+        height: 8.5rem;
+        margin-top: -0.938rem;
+        border-bottom-right-radius: .625rem;
+        border-bottom-left-radius: .625rem;
+    }
+
+    #pro2 {
+        width: 12.75rem;
+        height: 10.625rem;
+        background: white;
+        margin-bottom: 2.25rem;
+        margin-left: 0;
+        border-bottom-right-radius: .625rem;
+        border-bottom-left-radius: .625rem;
+    }
+
+    #pro-feed2 {
+        background: gray;
+        width: 100%;
+        height: 20%;
+
+    }
+
+    #pro2pic {
+        width: 11.5rem;
+        height: 8.5rem;
+        margin-top: -0.938rem;
+        margin-left: .625rem;
+    }
+
+    #pro3 {
+        width: 12.75rem;
+        height: 10.625rem;
+        background: white;
+        margin-bottom: 2.25rem;
+        margin-left: 1.875rem;
+        border-bottom-right-radius: .625rem;
+        border-bottom-left-radius: .625rem;
+    }
+
+    #pro-feed3 {
+        background: gray;
+        width: 100%;
+        height: 20%;
+    }
+
+    #pro4 {
+        width: 12.75rem;
+        height: 10.625rem;
+        background: white;
+        margin-bottom: 2.25rem;
+        margin-left: 0;
+        border-bottom-right-radius: .625rem;
+        border-bottom-left-radius: .625rem;
+    }
+
+    #pro-feed4 {
+        background: gray;
+        width: 100%;
+        height: 20%;
+    }
+
+    .pro-display {
+        display: block;
+        margin-top: 2.5rem;
+    }
+
+    .portraitBackground-a {
+        width: 14.365rem;
+        height: 16.916rem;
+        background-color: white;
+        opacity: .3;
+        position: relative;
+        left: 4.625rem;
+        top: 0.875rem;
+
+    }
+
+    .portraitBackground-b {
+        width: 14.365rem;
+        height: 16.916rem;
+        background-color: white;
+        opacity: .6;
+        position: relative;
+        top: 4.55rem;
+        right: 5.825rem;
+
+    }
+
+    #q1 {
+        animation: bounce 5s ease forwards infinite;
+        position: absolute;
+        left: 20rem;
+        bottom: -10.625rem;
+        width: 1.875rem;
+        height: 3.125rem;
+
+
+    }
+
+    #q2 {
+        animation: bounce 8s ease forwards infinite;
+        position: absolute;
+        left: 10.625rem;
+        bottom: -10.625rem;
+
+    }
+
+
+
+    #q4 {
+        animation: bounce 7s ease forwards infinite;
+        position: absolute;
+        bottom: -12.75rem;
+        left: 7.5rem;
+        width: 1.563rem;
+        height: 2.5rem;
+    }
+
+
+
+    @keyframes re-spin {
+        0% {
+            transform: rotate(-20deg);
+        }
+        100% {
+            transform: rotate(-380deg);
+        }
+    }
+
+    @keyframes spin {
+        0% {
+
+        }
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+
+    .twitterLogo {
+        width: 1.275rem;
+        height: 1.275rem;
+        border-radius: 0.313rem;
+    }
+
+
+    .techicon {
+        height: 2.18rem;
+        width: 2.18rem;
+        border-radius: .625rem;
+
+    }
+
+    .techbackground {
+        height: 2.665rem;
+        width: 3.086rem;
+        border-radius: 6.25rem;
+        background: gray;
+        justify-content: center;
+        text-align: center;
+        top: 50%;
+        padding-top: 0.35rem;
+        margin-left: 1.875rem;
+        box-shadow: black 0.313rem 0.313rem 1.25rem;
+    }
+
+    .view-code-text {
+        font-family: 'Heebo', sans-serif;
+        font-size: .9rem;
+        width: 50%;
+        height: 100%;
+        padding-top: 0.938rem;
+        text-align: center;
+        float: right;
+    }
+
+    .view-code-text:hover {
+        background: white;
+        opacity: .5;
+    }
+
+    nav ul li {
+        padding-left: 0.313rem;
+        text-align: center;
+        padding-right: .625rem;
+    }
+
+
+
+
+}
+
+
+
+
+
+
